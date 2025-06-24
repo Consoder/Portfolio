@@ -1,0 +1,1186 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kartik Bhargava - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Federo&display=swap" rel="stylesheet">
+<link rel="icon" href="logo.png" type="image/png">
+
+
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+  </head>
+  <body>
+<nav class="brutal-navbar glass-nav">
+  <div class="nav-logo">Portfolio</div>
+  <div class="nav-toggle" id="navToggle">
+    <span></span><span></span><span></span>
+  </div>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<div id="scroll-underline-wrapper">
+  <div id="scroll-underline"></div>
+</div>
+
+<!-- SPLINE 3D MODEL SECTION -->
+
+<canvas id="starfield"></canvas>
+    <div class="stars" id="stars"></div>
+  
+    <div class="hero-header fade-in">
+
+      <div class="wrapper">
+        <header></header>
+        <div class="container">
+          <div class="hero-pic">
+            <img src="1.jpeg" alt="Profile Picture">
+          </div>
+          <div class="hero-text">
+            <h5>Hi, I'm <span class="input">Frontend Developer</span></h5>
+            <h1>Kartik Bhargava</h1>
+            <p>Skilled frontend developer with advanced command of HTML, CSS, JavaScript, and React. I build responsive, performance-optimized UIs with modern design systems, animations, and pixel-level precision. Proven experience in UI/UX, project execution, and cross-platform delivery. I focus on clarity, maintainability, and impact — the fundamentals every serious product demands.
+
+</p>
+            <div class="bttn-group">
+              <a href="#" class="btn">Download CV</a>
+              <a href="#contact" class="btn">Contact Me</a>
+            </div>
+<div class="social-bar">
+  <a href="https://linkedin.com/in/kartik-bhargava-248796257" class="social-icon js-ripple linkedin" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  <a href="https://github.com/Consoder" class="social-icon js-ripple github" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://mail.google.com/mail/?view=cm&to=kartikbhargava1111@gmail.com" 
+   target="_blank" 
+   class="social-icon js-ripple email">
+  <i class="fab fa-google"></i>
+</a>
+  
+  </a>
+</div>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          var typed = new Typed(".input", {
+            strings: [
+              "Frontend Developer",
+              "UX Designer",
+              "Web Developer",
+              "Hackathon Finalist",
+              "Tech Team Leader"
+            ],
+            typedSpeed: 150,
+            backSpeed: 100,
+            loop: true
+          });
+        });
+      </script>
+      <section class="about-section fade-in" id="about">
+        <div class="about-left">
+        
+<div class="spline-wrapper">
+  <spline-viewer
+    url="https://prod.spline.design/dfExkJe0nFEN1U60/scene.splinecode"
+    style="width: 100%; height: 650px; border-radius: 20px; margin-left: -40px; margin-top: -90px;"
+  ></spline-viewer>
+</div>
+
+        </div>
+     <section class="terminal-container">
+
+  <div class="terminal" id="terminal">
+
+    <div class="terminal-header">
+      <span class="dot red" id="dot-red" title="Close Terminal"></span>
+<span class="dot yellow" id="dot-yellow" title="Minimize Terminal"></span>
+<span class="dot green" id="dot-green" title="Expand Terminal"></span>
+      <span class="terminal-title">kartik@portfolio: ~</span>
+    </div>
+    <div class="instructions">Type <code>help</code> to explore Kartik Bhargava’s capabilities.</div>
+    <div class="terminal-body" id="terminal-body">
+      <div class="output">Initializing terminal engine...</div>
+      <div class="output">Connection established.</div>
+    </div>
+    <div class="input-line">
+      <span class="prompt">$</span>
+      <input type="text" id="terminal-input" autocomplete="off" />
+    </div>
+  </div>
+</section>
+
+        </section>
+     <script>
+ const input = document.getElementById("terminal-input");
+  const terminalBody = document.getElementById("terminal-body");
+
+  const responses = {
+    "whoami": "👤 Candidate: Kartik Bhargava\n🎨 Role: Frontend Developer\n🧠 Focus: Clean UI + Smart UX\n📂 Portfolio: You’re in it!",
+    "skills": "💡 HTML/CSS: 12/10\n⚡ JavaScript: 12/10\n⚛️ ReactJS: 12/10\n🔥 Firebase/Auth: 12/10\n🎨 UI Design: Elite",
+    "projects": "📁 BookSavvy – Hotel UI\n📁 XPOSURE – Photography Club Portal\n📁 ChatBot – Real-time Bot\n💡 Type 'more projects'",
+    "more projects": "📁 Payment Gateway UI\n📁 Hostel Booking System\n📁 Crime Thriller Film Editor\n📁 Resume Generator Portal",
+    "strengths": "✅ Fast Learner\n✅ UI Perfectionist\n✅ Ownership Mindset\n✅ Execution Clarity\n✅ Feedback Friendly",
+    "why": "🚀 I deliver pixel-perfect results with speed and ownership. You want clarity — I deliver that with impact.",
+    "help": "🧭 Try:\n- whoami\n- skills\n- projects\n- more projects\n- strengths\n- why\n- clear",
+    "clear": "__CLEAR__"
+  };
+
+  let history = [];
+  let historyIndex = -1;
+
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      const value = input.value.trim().toLowerCase();
+      if (!value) return;
+
+      history.push(value);
+      historyIndex = history.length;
+
+      const inputLine = document.createElement("div");
+      inputLine.classList.add("output");
+      inputLine.innerHTML = `<span class="prompt">$</span> ${value}`;
+      terminalBody.appendChild(inputLine);
+
+      const responseLine = document.createElement("div");
+      responseLine.classList.add("output");
+
+      if (responses[value]) {
+        if (responses[value] === "__CLEAR__") {
+          [...terminalBody.querySelectorAll(".output")].forEach(el => el.remove());
+        } else {
+          let response = responses[value];
+          let i = 0;
+          const interval = setInterval(() => {
+            if (i <= response.length) {
+              responseLine.textContent = response.slice(0, i++);
+            } else {
+              clearInterval(interval);
+            }
+          }, 12);
+          terminalBody.appendChild(responseLine);
+        }
+      } else {
+        responseLine.innerHTML = "⚠️ Unknown command. Type <b>'help'</b>.";
+        terminalBody.appendChild(responseLine);
+      }
+
+      input.value = "";
+      terminalBody.scrollTop = terminalBody.scrollHeight;
+    }
+
+    if (e.key === "ArrowUp") {
+      if (historyIndex > 0) {
+        historyIndex--;
+        input.value = history[historyIndex];
+      }
+    }
+
+    if (e.key === "ArrowDown") {
+      if (historyIndex < history.length - 1) {
+        historyIndex++;
+        input.value = history[historyIndex];
+      } else {
+        input.value = "";
+      }
+    }
+  });
+</script>
+
+<section id="projects">
+        <div class="projects-heading">
+          <canvas id="kartikCornerCanvas" width="400" height="140"></canvas>
+        </div>
+        <div class="container1">
+     
+<div class="project-card zoom-in" data-tilt>
+  <div class="carousel">
+    <button class="nav-button left">&#10094;</button>
+    <button class="nav-button right">&#10095;</button>
+    <img src="HOTEL1.png" alt="Slide 1" class="active-slide" />
+    <img src="HOTEL2.png" alt="Slide 2" />
+    <img src="HOTEL3.png" alt="Slide 3" />
+    <img src="HOTEL4.png" alt="Slide 4" />
+    <img src="HOTEL5.png" alt="Slide 5" />
+    <img src="HOTEL6.png" alt="Slide 6" />
+    <img src="HOTEL7.png" alt="Slide 7" />
+    <img src="HOTEL8.png" alt="Slide 8" />
+    <img src="HOTEL9.png" alt="Slide 9" />
+    <img src="HOTEL10.png" alt="Slide 10" />
+  </div>
+
+  <div class="description" id="carousel-description">
+    Hotel Booking Dashboard with live room updates and luxury interface.
+  </div>
+</div>
+
+      <div class="hero-text">
+            <h1>Hotel Management</h1>
+            <p>Experience a realm of elevated sophistication through our grand resort platform—crafted for those who seek refined elegance in every detail. From curated stays to immersive cultural experiences and elite memberships, everything is tailored for exclusivity.</p><P> Please note : This journey is currently available only on PC for optimal performance.</p>
+            <div class="bttn-group">
+              <a href="https://consoder.github.io/Hotel-Management/" class="btn">Live-Demo</a>
+              <a href="https://github.com/Consoder/Hotel-Management" class="btn">Git-Hub</a>
+            </div>
+          </div>
+
+        </div></section>
+       <script>
+  VanillaTilt.init(document.querySelectorAll(".project-card"), {
+  max: 10,
+  speed: 400,
+  glare: true,
+  "max-glare": 0.25,
+  scale: 1.03
+});
+
+const imageSlides = document.querySelectorAll('.carousel img');
+const descriptionBox = document.getElementById('carousel-description');
+
+const descriptions = [
+  "Effortlessly reserve your stay through our intelligent, conversational booking assistant.",
+  "Experience signature dining—from elegant fine-dines to cozy cafés and family feasts.",
+  "Explore resort destinations via our customized ChatBOT with Google Maps integration.",
+  "Step into timeless luxury with our regal, heritage-inspired palace retreats.",
+  "Unlock elite resort privileges with our exclusive, all-access membership plans.",
+  "Embark on handpicked luxury, heritage, and adventure experiences—curated just for you.",
+  "Upgrade your journeys with elite Travel Club membership privileges and perks.",
+  "Seamlessly enter billing and booking details for a smooth reservation experience.",
+  "Host grand events and impactful conferences in our exquisite venues.",
+  "Browse our gallery to glimpse unforgettable moments and timeless resort beauty."
+];
+
+let slideIndex = 0;
+let autoSlide;
+
+function updateCarousel() {
+  imageSlides.forEach((img, idx) => {
+    img.classList.remove('active-slide');
+    if (idx === slideIndex) {
+      img.classList.add('active-slide');
+    }
+  });
+
+  descriptionBox.innerHTML = `
+    <ul>
+      ${descriptions[slideIndex]
+        .split('. ')
+        .map(line => line.trim())
+        .filter(line => line.length)
+        .map(line => `<li>${line}</li>`)
+        .join('')}
+    </ul>`;
+}
+
+function startAutoSlide() {
+  autoSlide = setInterval(() => {
+    slideIndex = (slideIndex + 1) % imageSlides.length;
+    updateCarousel();
+  }, 4000);
+}
+
+document.querySelector('.nav-button.left').addEventListener('click', () => {
+  clearInterval(autoSlide);
+  slideIndex = (slideIndex - 1 + imageSlides.length) % imageSlides.length;
+  updateCarousel();
+  startAutoSlide();
+});
+
+document.querySelector('.nav-button.right').addEventListener('click', () => {
+  clearInterval(autoSlide);
+  slideIndex = (slideIndex + 1) % imageSlides.length;
+  updateCarousel();
+  startAutoSlide();
+});
+
+updateCarousel();
+startAutoSlide();
+</script>
+
+        </script>
+<div class="section">
+  <h2 class="title">✨ Achievements & Leadership</h2>
+  <div class="timeline">
+    <div class="entry left">
+      <h3>🏆 Code4Cause 2.0   Hackathon Runner-Up</h3>
+      <p>Secured 2nd place out of 250+ teams with an AI-powered disaster response web app focused on real-time alerts and logistics optimization.</p>
+    </div>
+    <div class="entry right">
+      <h3>⚡ IEEE Hackathon Finalist</h3>
+      <p>Developed a decentralized education verification platform using blockchain for credential authentication. Selected as a top finalist.</p>
+    </div>
+    <div class="entry left">
+      <h3>👥 Team Lead   XPOSURE Photography Club</h3>
+      <p>Led a 10-member core team and executed over 20 cultural and technical events, growing campus engagement by 200%.</p>
+    </div>
+    <div class="entry right">
+      <h3>💼 Frontend Developer   Tech Solutions (Internship)</h3>
+      <p>Worked on React-based UI dashboards, implemented modular component libraries, and integrated real-time APIs with Firebase and Node.js.</p>
+    </div>
+  </div>
+</div>
+<style>
+   #Foot-Box {
+    background: linear-gradient(145deg, #0e0f1c, #060712);
+    border-top: 2px solid #00ffe5;
+    box-shadow: 0 0 40px rgba(0, 255, 230, 0.2);
+    padding: 70px 40px 30px;
+    border-radius: 30px 30px 0 0;
+    backdrop-filter: blur(14px);
+  }
+spline-viewer::part(branding) {
+  display: none !important;
+}
+
+  .footer-content {
+    display: flex;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+   margin-top: -30px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .footer-brand h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #00ffe5;
+        font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  .footer-brand p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #c0d0ff;
+    line-height: 1.6;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+
+  .footer-menu h3 {
+    font-size: 32px;
+    margin-top: 4px;
+    color: #ffffff;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <3>;
+  font-style: normal;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .footer-menu p {
+    font-size: 14px;
+    color: #c4c4c4;
+    margin: 8px 0;
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  }
+
+  .footer-menu .icons {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+  }
+
+  .footer-menu .icons a {
+    font-size: 20px;
+    color: #aaa;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+
+  .footer-menu .icons a:hover {
+    color: #00ffe5;
+    transform: scale(1.2);
+  }
+
+  .spline-container {
+    flex: 1;
+    max-width: 350px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+.spline-wrapper spline-viewer {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.69) translateY(128px) translateX(-3px); /* SHIFT IT LEFT */
+  transform-origin: top center;
+  pointer-events: none;
+  display: block;
+}
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+  }
+
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+
+
+
+  .spline-wrapper spline-viewer {
+    width: 100%;
+    height: 100%;
+    transform: scale(1) translateY(20px);
+    transform-origin: center;
+    pointer-events: none;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+  }
+.spline-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;        /* Align with top of text */
+  max-width: 100%;
+  overflow: visible;
+  padding: 0;
+  margin: 0;
+  width: 1000px;
+}
+
+.spline-wrapper {
+  width: 100%;
+  max-width: 280px;               /* Optimal width to balance footer */
+  aspect-ratio: 1 / 1;            /* Maintain square size */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: visible;
+  position: relative;
+}
+
+.spline-wrapper spline-viewer {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.85);         /* Shrinks oversized model */
+  transform-origin: top center;
+  pointer-events: none;
+  display: block;
+}
+
+.spline-badge-cover {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 110px; /* adjust to match the badge size */
+  height: 30px;
+   background: transparent;
+  box-shadow: 0 0 30px 30px #0e0f1c; /* Glow-like mask */
+  border-radius: 50%;;
+  z-index: 10;
+  pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .spline-container {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .spline-wrapper {
+    max-width: 280px;
+    height: 280px;
+  }
+
+  .spline-wrapper spline-viewer {
+    height: 100%;
+  }
+}
+
+  </style>
+</head>
+<body>
+<section id="contact">
+<footer id="Foot-Box">
+  <div class="footer-content"> 
+  <div class="footer-brand">
+    <h2>Kartik Bhargava</h2>
+    <p>
+      Designing in vectors. Debugging in hex.<br>
+      Fueled by dark roast and darker UIs.<br>
+      Building the future, one pixel and prompt at a time.
+    </p>
+  </div>
+
+  <div class="footer-menu">
+    <h3>Ping Me</h3>
+    <p><i class="fas fa-envelope"></i> kartikbhargava1111@gmail.com</p>
+    <p><i class="fas fa-location-dot"></i> Earth — 127.0.0.1</p>
+    <div class="icons">
+      <a href="https://github.com/Consoder"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/kartik-bhargava-248796257"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#"><i class="fas fa-terminal"></i></a>
+    </div>
+  </div>
+
+     <div class="spline-container">
+      <div class="spline-wrapper">
+        <spline-viewer url="https://prod.spline.design/qHeP4QuwT5UcmxVp/scene.splinecode"></spline-viewer>
+         <div class="spline-badge-cover"></div>
+      </div>
+    </div>
+    
+  </div>
+
+  
+  <div class="footer-bottom">
+    <p>🚀 Portfolio v2.5 — Built in Night Mode Only | &copy; 2025 Kartik Bhargava</p>
+  </div>
+</footer></section>
+
+        <script>
+          const starField = document.getElementById("stars");
+          for (let i = 0; i < 100; i++) {
+            const star = document.createElement("div");
+            star.classList.add("star");
+            star.style.top = `${Math.random() * 100}vh`;
+            star.style.left = `${Math.random() * 100}vw`;
+            star.style.animationDuration = `${3 + Math.random() * 3}s`;
+            starField.appendChild(star);
+          }
+          setInterval(() => {
+            const shootingStar = document.createElement("div");
+            shootingStar.classList.add("shooting-star");
+            shootingStar.style.top = `${Math.random() * window.innerHeight * 0.5}px`;
+            shootingStar.style.left = `${Math.random() * window.innerWidth}px`;
+            shootingStar.style.animationDuration = `${1.2 + Math.random()}s`;
+            starField.appendChild(shootingStar);
+            setTimeout(() => shootingStar.remove(), 1500);
+          }, 3000);
+        </script>
+      
+      </script>
+      <script>
+        window.onload = () => {
+          document.querySelectorAll('.fade-in').forEach(el => {
+            el.style.animationDelay = `${Math.random() * 0.5}s`;
+            el.classList.add('fade-in');
+          });
+        };
+      </script>
+      <script>
+        const starCanvas = document.getElementById("starfield");
+        const starCtx = starCanvas.getContext("2d");
+        function resizeStarfield() {
+          starCanvas.width = window.innerWidth;
+          starCanvas.height = window.innerHeight;
+        }
+        window.addEventListener("resize", resizeStarfield);
+        resizeStarfield();
+        const stars = Array.from({ length: 150 }).map(() => ({
+          x: Math.random() * starCanvas.width,
+          y: Math.random() * starCanvas.height,
+          r: Math.random() * 1.2 + 0.3,
+          alpha: Math.random(),
+          speed: Math.random() * 0.3 + 0.05
+        }));
+        function drawStarfield() {
+  // Fill deep navy background
+          starCtx.fillStyle = "#010112";
+          starCtx.fillRect(0, 0, starCanvas.width, starCanvas.height);
+
+          for (let star of stars) {
+            star.alpha += (Math.random() - 0.5) * 0.05;
+            star.alpha = Math.max(0.1, Math.min(1, star.alpha));
+            starCtx.beginPath();
+            starCtx.arc(star.x, star.y, star.r, 0, Math.PI * 2);
+            starCtx.fillStyle = `rgba(102, 252, 241, ${star.alpha})`;
+            starCtx.fill();
+            star.y += star.speed;
+            if (star.y > starCanvas.height) {
+              star.y = 0;
+              star.x = Math.random() * starCanvas.width;
+            }
+          }
+          requestAnimationFrame(drawStarfield);
+        }
+        drawStarfield();
+      </script>
+      <script>
+        const navToggle = document.getElementById('navToggle');
+const navLinks = document.getElementById('navLinks');
+
+navToggle.addEventListener('click', () => {
+  navLinks.classList.toggle('open');
+});
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+          navLinks.classList.toggle('open');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop - 80,
+        behavior: 'smooth'
+      });
+      navLinks.classList.remove('open');
+    }
+  });
+});
+      </script>
+      <script>
+        const navbar = document.querySelector(".navbar");
+
+        window.addEventListener("scroll", () => {
+          if (window.scrollY > 10) {
+            navbar.classList.add("scrolled");
+          } else {
+            navbar.classList.remove("scrolled");
+          }
+        });
+      </script>
+      <script>
+        const cornerCanvas = document.getElementById("kartikCornerCanvas"); 
+        const ctx = cornerCanvas.getContext("2d");
+        const dpr = window.devicePixelRatio || 1;
+
+  // Increase canvas size
+        cornerCanvas.width = 800 * dpr;
+        cornerCanvas.height = 250 * dpr;
+        cornerCanvas.style.width = "800px";
+        cornerCanvas.style.height = "250px";
+
+        ctx.scale(dpr, dpr);
+
+  // Positioning
+        const textOffsetX = 20;
+        const textOffsetY = 30;
+
+        const mouse = { x: 150, y: 50 };
+        const letters = "CREATIONS";
+        const density = 7;
+        const friction = 0.92;
+        const spring = 0.04;
+        const particles = [];
+
+        function generateLetterPoints() {
+          const tempCanvas = document.createElement("canvas");
+          tempCanvas.width = 1000;
+          tempCanvas.height = 250;
+          const tctx = tempCanvas.getContext("2d");
+
+          tctx.fillStyle = "#c2f9ff";
+          tctx.font = "bold 120px 'Orbitron', sans-serif";
+          tctx.shadowColor = "rgba(0, 229, 255, 0.15)";
+          tctx.shadowBlur = 10;
+          tctx.fillText("CREATIONS", 10, 160);
+
+          const points = [];
+          const imageData = tctx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+          for (let y = 0; y < tempCanvas.height; y += density) {
+            for (let x = 0; x < tempCanvas.width; x += density) {
+              const idx = (y * tempCanvas.width + x) * 4;
+              if (imageData.data[idx + 3] > 150) {
+                points.push({ x, y });
+              }
+            }
+          }
+          return points;
+        }
+
+        const targetPoints = generateLetterPoints();
+
+        for (let p of targetPoints) {
+          const finalX = p.x + textOffsetX;
+          const finalY = p.y + textOffsetY;
+          particles.push({
+            x: finalX,
+            y: finalY,
+            vx: 0,
+            vy: 0,
+            tx: finalX,
+            ty: finalY,
+            r: Math.random() * 1.4 + 0.9,
+            alpha: Math.random() * 0.2 + 0.8
+          });
+        }
+
+        cornerCanvas.addEventListener("mousemove", e => {
+          const rect = cornerCanvas.getBoundingClientRect();
+          mouse.x = e.clientX - rect.left;
+          mouse.y = e.clientY - rect.top;
+        });
+        cornerCanvas.addEventListener("mouseleave", () => {
+          mouse.x = -9999;
+          mouse.y = -9999;
+        });
+
+        function animateCornerCanvas() { 
+          ctx.clearRect(0, 0, cornerCanvas.width / dpr, cornerCanvas.height / dpr);
+          for (let p of particles) {
+            let dx = p.tx - p.x;
+            let dy = p.ty - p.y;
+            p.vx += dx * spring;
+            p.vy += dy * spring;
+            const dist = Math.hypot(mouse.x - p.x, mouse.y - p.y);
+            if (dist < 80) {
+              const angle = Math.atan2(p.y - mouse.y, p.x - mouse.x);
+              const strength = (80 - dist) / 80;
+              p.vx += Math.cos(angle) * strength * 2;
+              p.vy += Math.sin(angle) * strength * 2;
+              ctx.beginPath();
+              ctx.globalAlpha = 1;
+              ctx.fillStyle = "#00e5ff";
+              ctx.shadowColor = "#00e5ff";
+              ctx.shadowBlur = 20;
+              ctx.arc(p.x, p.y, p.r * 1.5, 0, Math.PI * 2);
+              ctx.fill();
+            } else {
+              ctx.beginPath();
+              ctx.globalAlpha = 0.6;
+              ctx.fillStyle = "#c2f9ff";
+              ctx.shadowColor = "rgba(0, 229, 255, 0.15)";
+              ctx.shadowBlur = 8;
+              ctx.arc(p.x, p.y, p.r * 1.2, 0, Math.PI * 2);
+              ctx.fill();
+            }
+            p.vx *= friction;
+            p.vy *= friction;
+            p.x += p.vx;
+            p.y += p.vy;
+          }
+          requestAnimationFrame(animateCornerCanvas);
+        }
+        animateCornerCanvas();
+      </script>
+      <script>
+        const canvas = document.getElementById("stars");
+        const ctx = canvas.getContext("2d");
+
+        function resizeCanvas() {
+          canvas.width = window.innerWidth;
+          canvas.height = window.innerHeight;
+        }
+        resizeCanvas();
+        window.addEventListener("resize", resizeCanvas);
+
+        let stars = [];
+        let shootingStars = [];
+
+  // Blue and white twinkling stars
+        for (let i = 0; i < 140; i++) {
+          stars.push({
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height,
+            r: Math.random() * 1.2 + 0.3,
+            alpha: Math.random(),
+            speed: Math.random() * 0.3 + 0.05,
+            color: i % 2 === 0
+            ? "rgba(255,255,255,0.8)"
+            : "rgba(102,252,241,0.8)"
+          });
+        }
+
+        function createShootingStar(color) {
+          return {
+            x: Math.random() * canvas.width,
+            y: Math.random() * canvas.height * 0.4,
+            vx: -Math.random() * 6 - 4,
+            vy: Math.random() * 2 + 1,
+            r: 2,
+            life: 0,
+            maxLife: 80,
+            color
+          };
+        }
+
+        function animate() {
+  ctx.fillStyle = "#010112"; // DEEP NAVY BASE
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  // twinkling stars
+  for (let s of stars) {
+    s.y += s.speed;
+    if (s.y > canvas.height) {
+      s.y = 0;
+      s.x = Math.random() * canvas.width;
+    }
+    ctx.beginPath();
+    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+    ctx.fillStyle = s.color;
+    ctx.globalAlpha = s.alpha;
+    ctx.fill();
+  }
+
+  // shooting stars
+  for (let i = shootingStars.length - 1; i >= 0; i--) {
+    const s = shootingStars[i];
+    s.x += s.vx;
+    s.y += s.vy;
+    s.life++;
+    ctx.beginPath();
+    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+    ctx.fillStyle = s.color;
+    ctx.globalAlpha = 1;
+    ctx.fill();
+    if (s.life > s.maxLife) shootingStars.splice(i, 1);
+  }
+
+  requestAnimationFrame(animate);
+}
+
+  // Launch both colors of shooting stars
+setInterval(() => {
+  shootingStars.push(createShootingStar("white"));
+  shootingStars.push(createShootingStar("#66fcf1"));
+}, 3000);
+
+animate();
+</script>
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.12/build/spline-viewer.js"></script>
+<script>
+  const overlay = document.getElementById("terminalOverlay");
+  const terminalBox = document.querySelector(".terminal-container");
+  let overlayShown = false;
+
+  const overlayObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !overlayShown) {
+        overlayShown = true;
+        overlay.classList.add("show");
+        setTimeout(() => {
+          overlay.classList.remove("show");
+        }, 1800); // 5 full seconds visible
+      }
+    });
+  }, { threshold: 0.5 });
+
+  overlayObserver.observe(terminalBox);
+</script>
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('active'); // For animating the burger if needed
+  });
+
+  // Close nav on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('active');
+    });
+  });
+</script>
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('active'); // For animating the burger if needed
+  });
+
+  // Close nav on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('active');
+    });
+  });
+</script>
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('roll-in-visible');
+    }
+  });
+}, { threshold: 0.4 });
+
+observer.observe(document.querySelector('.hero-pic'));
+observer.observe(document.querySelector('.hero-text'));
+</script>
+<script>
+  const navToggle = document.getElementById('nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  navToggle.addEventListener('change', () => {
+    navLinks.classList.toggle('open', navToggle.checked);
+  });
+</script>
+<script>
+  const scrollBar = document.getElementById("scroll-underline");
+  window.addEventListener("scroll", () => {
+    const scroll = window.scrollY;
+    const max = document.body.scrollHeight - window.innerHeight;
+    const percent = (scroll / max) * 100;
+    scrollBar.style.width = percent + "%";
+  });
+</script>
+<script>
+  document.querySelectorAll('.social-icon').forEach(icon => {
+    icon.addEventListener('mousemove', (e) => {
+      const rect = icon.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+   icon.style.transform = `translate(${x * 0.2}px, ${y * 0.2}px) scale(1.05)`;
+
+    });
+
+    icon.addEventListener('mouseleave', () => {
+      icon.style.transform = 'translate(0, 0) scale(1)';
+    });
+  });
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const navbar = document.querySelector(".navbar");
+  const navLinks = document.querySelectorAll(".nav-links a");
+  const sections = document.querySelectorAll("section");
+  const toggle = document.querySelector("#nav-toggle");
+  let lastScroll = 0;
+
+  // Sticky + Scroll Direction Nav
+  window.addEventListener("scroll", () => {
+    const currentScroll = window.scrollY;
+
+    if (currentScroll > 100) {
+      navbar.classList.add("sticky");
+      if (currentScroll > lastScroll) {
+        navbar.style.top = "-100px"; // hide
+      } else {
+        navbar.style.top = "0"; // show
+      }
+      lastScroll = currentScroll;
+    } else {
+      navbar.classList.remove("sticky");
+      navbar.style.top = "0";
+    }
+
+    // Scroll Active Highlight
+    sections.forEach(sec => {
+      let top = window.scrollY;
+      let offset = sec.offsetTop - 150;
+      let height = sec.offsetHeight;
+      let id = sec.getAttribute("id");
+
+      if (top >= offset && top < offset + height) {
+        navLinks.forEach(link => {
+          link.classList.remove("active");
+          if (link.getAttribute("href").includes(id)) {
+            link.classList.add("active");
+          }
+        });
+      }
+    });
+  });
+
+  // Close nav on outside click (mobile)
+  document.addEventListener("click", (e) => {
+    const navMenu = document.querySelector(".nav-links");
+    if (!navbar.contains(e.target)) {
+      toggle.checked = false;
+    }
+  });
+
+  // Close nav on Escape
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") toggle.checked = false;
+  });
+});
+window.addEventListener("scroll", () => {
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop - 100;
+    let height = sec.offsetHeight;
+    let id = sec.getAttribute("id");
+
+    if (top >= offset && top < offset + height) {
+      navLinks.forEach(link => {
+        link.classList.remove("active");
+        if (link.getAttribute("href").includes(id)) {
+          link.classList.add("active");
+        }
+      });
+    }
+  });
+});
+document.querySelectorAll(".nav-links a").forEach(link => {
+  link.addEventListener("mousemove", (e) => {
+    const x = e.offsetX;
+    const y = e.offsetY;
+    link.style.setProperty("--mouse-x", `${x}px`);
+    link.style.setProperty("--mouse-y", `${y}px`);
+  });
+});
+</script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const timelineEntries = document.querySelectorAll('.timeline .entry');
+
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    timelineEntries.forEach(entry => observer.observe(entry));
+  });
+</script>
+<script>
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('navLinks');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    toggle.classList.toggle('active');
+  });
+
+  // Add scroll shadow to nav
+  window.addEventListener('scroll', () => {
+    document.querySelector('.glass-nav')
+      .classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Smooth scroll + auto close
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', e => {
+      const target = document.querySelector(link.getAttribute('href'));
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({ behavior: 'smooth' });
+        nav.classList.remove('open');
+        toggle.classList.remove('active');
+      }
+    });
+  });
+</script>
+
+<script>
+  const scrollElements = document.querySelectorAll('.fade-in, .slide-in-left, .zoom-in');
+
+  const scrollObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.3 });
+
+  scrollElements.forEach(el => {
+    scrollObserver.observe(el);
+  });
+</script>
+
+<script>
+  const terminal = document.getElementById("terminal");
+  const redDot = document.getElementById("dot-red");
+  const yellowDot = document.getElementById("dot-yellow");
+  const greenDot = document.getElementById("dot-green");
+
+  redDot?.addEventListener("click", () => {
+    const terminalBody = document.getElementById("terminal-body");
+    terminalBody.innerHTML = `<div class="output">🔒 Terminal closed. Refresh to restart.</div>`;
+    document.getElementById("terminal-input").disabled = true;
+  });
+
+  yellowDot?.addEventListener("click", () => {
+    const terminalBody = document.getElementById("terminal-body");
+    terminalBody.style.display =
+      terminalBody.style.display === "none" ? "block" : "none";
+  });
+
+  greenDot?.addEventListener("click", () => {
+    terminal.classList.toggle("fullscreen-terminal");
+  });
+</script>
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+  });
+
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+    });
+  });
+</script>
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+
+  navToggle.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    navToggle.classList.toggle('active'); // optional for animation
+  });
+
+  // Optional: close menu on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      navLinks.classList.remove('open');
+      navToggle.classList.remove('active');
+    });
+  });
+</script>
+
+</body>
+</html>
